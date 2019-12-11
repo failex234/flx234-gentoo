@@ -2,14 +2,15 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
+inherit git-r3
 
 DESCRIPTION="A simple to use text editor, closely related to vim"
 HOMEPAGE="https://github.com/failex234/fedit"
-SRC_URI="https://dl.failex.de/Stuff/private/fedit-0.0.2-pre.tar.bz2"
+EGIT_REPO_URI="https://github.com/failex234/fedit.git"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="*"
+KEYWORDS="~*"
 IUSE=""
 
 DEPEND=""
@@ -17,6 +18,6 @@ RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_install() {
-	mkdir -p "${D}/usr/bin"
+	mkdir -p ${D}/usr/bin
 	emake DESTDIR="${D}" install
 }
