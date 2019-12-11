@@ -10,7 +10,7 @@ EGIT_REPO_URI="https://github.com/LukeSmithxyz/st.git"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="amd64 x86 arm arm64 ppc sparc mips"
 IUSE="savedconfig st-underline st-bar st-snowman st-large st-bell"
 
 RDEPEND="
