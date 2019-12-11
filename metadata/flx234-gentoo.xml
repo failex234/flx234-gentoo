@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo priority="20" quality="experimental" status="unofficial">
+    <name>flx234-gentoo</name>
+    <description>Personal collection of ebuilds from various personal and non-personal projects</description>
+    <homepage>https://github.com/failex234/flx234-gentoo</homepage>
+    <owner>
+    	<email>felix@emilnaumann.de</email>
+    </owner>
+    <source type="git">git://github.com/failex234/flx234-gentoo.git</source>
+  </repo>
+</repositories>
