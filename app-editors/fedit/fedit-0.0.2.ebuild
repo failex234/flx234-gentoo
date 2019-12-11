@@ -9,7 +9,7 @@ SRC_URI="https://dl.failex.de/Stuff/private/fedit-0.0.2-pre.tar.bz2"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="*"
+KEYWORDS="~* amd64 x86"
 IUSE=""
 
 DEPEND=""
